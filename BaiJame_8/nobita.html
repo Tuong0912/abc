@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="doReady()">
+<form>
+  <img id="nobita" src="https://upload.wikimedia.org/wikipedia/vi/2/2c/Nobita.png" height="100" width="80">
+<script>
+  function upArowPressed(){
+    var element = document.getElementById("nobita");
+    element.style.top = parseInt(element.style.top) - 5 + 'px';
+  }
+  function downArowPressed(){
+    var element = document.getElementById("nobita");
+    element.style.top = parseInt(element.style.top) +5 + 'px';
+  }
+  function leftArowPressed(){
+    var element = document.getElementById("nobita");
+    element.style.left = parseInt(element.style.left) - 5 + 'px';
+  }
+  function rightArowPressed(){
+    var element = document.getElementById("nobita");
+    element.style.left = parseInt(element.style.left) + 5 + 'px';
+  }
+  function moveSelection(evt){
+    switch (evt.keyCode) {
+      case 37:
+        leftArowPressed();
+        break;
+      case 38 :
+        rightArowPressed();
+        break;
+      case 39:
+        upArowPressed();
+        break;
+      case 40:
+        downArowPressed();
+        break;
+    }
+  }
+  function doReady(){
+    window.addEventListener('keydown' , moveSelection);
+  }
+</script>
+</form>
+</body>
+</html>

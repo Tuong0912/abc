@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+<input type="number" id="a">
+    <button onclick="doi()">Đổi</button>
+</table>
+<p id="KQ">Kết quả</p>
+<script>
+    function doi(){
+        let a = document.getElementById("a").value;
+        let F = (a/5)*9+32;
+        document.getElementById("KQ").innerHTML = "Kết quả = " + F
+    }
+</script>
+</body>
+</html>

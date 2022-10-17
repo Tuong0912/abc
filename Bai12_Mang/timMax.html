@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let x = [1,7,7,6,3];
+  let max1 = x[0];
+  let max2 = x[0];
+  for(let i=0 ; i<x.length ; i++) {
+    if (x[i] > max1) {
+      max1 = x[i];
+    }
+  }
+  for( let i=0 ; i<x.length ; i++) {
+    if (x[i] > max2 && x[i] !=  max1) {
+      max2 = x[i];
+    }
+  }
+  alert(max2);
+</script>
+</body>
+</html>

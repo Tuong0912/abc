@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+<input type="number" id="a">
+<button onclick="tinh()">Bấm</button>
+</table>
+<p id="CV">Chu Vi = </p>
+<p id="DT">Diện tích = </p>
+  <script>
+  function tinh() {
+    let a = document.getElementById("a").value;
+    let cv = (a * 2) * 3.14;
+    let dt = a*a*3.14;
+    document.getElementById("CV").innerHTML ="Kết quả =" + cv;
+    document.getElementById("DT").innerHTML = "Kết quả =" + dt;
+  }
+</script>
+</body>
+</html>

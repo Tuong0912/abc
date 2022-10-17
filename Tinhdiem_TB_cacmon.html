@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Điểm trung bình các môn</title>
+</head>
+<body>
+<table>
+    <tr>
+    <td>Điểm Vật Lý</td>;
+    <td><input type="number" ; id="ly"></td>
+    </tr>
+    <tr>
+        <td>Điểm Hóa</td>
+        <td><input id="hoa"></td>
+    </tr>
+    <tr>
+        <td>Điểm Sinh</td>
+        <td><input id="sinh" ></td>
+    </tr>
+</table>
+<button type="button" onclick="dtb()"></button>
+    <p id="KQ">Kết quả</p>
+        </tr>
+
+    <script>
+        function dtb() {
+            let ly = +document.getElementById("ly").value;
+            let hoa = +document.getElementById("hoa").value;
+            let sinh = +document.getElementById("sinh").value;
+            let DTB = (ly + hoa + sinh) / 3;
+            document.getElementById("KQ").innerHTML ="Điểm trung binh = " + DTB ;
+        }
+    </script>
+
+</body>
+</html>

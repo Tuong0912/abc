@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+   <td colspan="2"><input type="number" id="a"></td>
+        <td colspan="2"><input type="number" id="b"></td>
+    </tr>
+    <tr>
+   <td><button onclick="cong()">Cộng</button></td>
+        <td><button onclick="tru()">Trừ</button></td>
+        <td><button onclick="nhan()">Nhân</button></td>
+        <td><button onclick="chia()">Chia</button></td>
+    </tr>
+    <tr>
+        <td><p id="kq">Kết quả : </p></td>
+    </tr>
+</table>
+<script>
+    function cong() {
+        let a = +document.getElementById("a").value;
+        let b = +document.getElementById("b").value;
+        let tong = a + b;
+        document.getElementById("kq").innerHTML = tong;
+    }
+    function tru() {
+        let a = +document.getElementById("a").value ;
+        let b = +document.getElementById("b").value;
+        let tru = a - b;
+        document.getElementById("kq").innerHTML=tru;
+    }
+    function nhan(){
+        let a = +document.getElementById("a").value;
+        let b = +document.getElementById("b").value;
+        let nhan = a*b;
+        document.getElementById("kq").innerHTML = nhan;
+    }
+    function chia() {
+        let a = +document.getElementById("a").value;
+        let b = +document.getElementById("b").value;
+        let chia = a / b ;
+        document.getElementById("kq").innerHTML = chia
+    }
+</script>
+</body>
+</html>

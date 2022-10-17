@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fibonacci Series</title>
+  <script>
+    let n = +prompt("Nhập số F cần hiện ra")
+let a = 0 ;
+let b = 1 ;
+let c;
+let tong = 0;
+for(i=0 ; i < n ; i++)
+{
+  document.write(a +"<br>");
+  tong += a;
+c=a+b;
+a=b;
+b=c;
+}
+document.write(tong);
+
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
