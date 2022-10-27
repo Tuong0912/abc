@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr=[1,2,3,4,5,6,7,8];
+  let x = +prompt("Nhập X");
+  let index=+prompt("Nhập index");
+  function insertNumberToArray() {
+      if (x < 0 || x > arr.length) {
+        alert(arr) ;
+      }
+      else{
+        arr.splice(index,0,x);
+        console.log(arr);
+      }
+  }
+  insertNumberToArray();
+</script>
+</body>
+</html>

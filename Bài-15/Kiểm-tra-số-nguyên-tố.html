@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[];
+    let x = +prompt("Nhập X")
+    function sumOfListPrime(x) {
+        for(j=0; j < x ; j++){
+            if(checkNguyenTo(j)==true ){
+                arr.push(j);
+            }
+        }
+    }
+        function checkNguyenTo(number) {
+            let check = false;
+            if (number > 1 && number <= 3) {
+                check = true;
+            } else {
+                for (let i = 2; i < number ; i++) {
+
+
+                    if (number % i == 0) {
+                        check = false;
+                        break;
+                    } else {
+                        check = true;
+                    }
+                }
+            }
+            document.write(check);
+        }
+    document.write(arr);
+    sumOfListPrime(x);
+</script>
+</body>
+</html>

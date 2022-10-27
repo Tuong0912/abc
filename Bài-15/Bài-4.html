@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="DemoCanvas" width="500" height="600"></canvas>
+<script>
+  var canvas = document.getElementById("DemoCanvas");
+  if (canvas.getContext)
+  {
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle='#ff0000';    // color of fill
+    ctx.fillRect(10,10, 140, 160); // create rectangle
+  }
+</script>
+</body>
+</html>

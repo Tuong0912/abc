@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Bài 1 : Viết hàm kiểm tra 1 k tự nhập vào c phải l số hay không
+    Bài 2 : Viết hàm truyền vào 3 số , trả về số ở giữa 9 VD : 1 3 4 => 3 ;
+ 1 1 3 => ko có số ở giữa
+    Bài 3 : Viết hàm truyền vào 1 mảng ký tự và 1 ký tự bất kì  , kiểm tra ký tự đó có trong
+ mảng hay không-->
+<!--
+<script>
+
+// Bài 1//
+let a =prompt("Nhập");
+ if(a % 1 == 0)
+     alert(true);
+ else
+     alert("Nhập lại");
+</script>
+
+-->
+
+
+<!--//Bài2-->
+
+<script>
+    let x = [];
+    let a = +prompt("Nhập a");
+    x.push(a);
+    let b = +prompt("Nhập b");
+    x.push(b);
+    let c = +prompt("Nhập c");
+    x.push(c);
+    function Bai2(x) {
+        let max = x[0];
+        let min = x[0];d
+        for (let i = 0; i < x.length; i++) {
+            if (x[i] > max) {
+                max = x[i];
+            }
+        }console.log(max)
+             for (let i = 0; i < x.length; i++) {
+            if (x[i] < min) {
+                min = x[i];
+            }
+        }console.log(min)
+        for (let i = 0; i < x.length; i++) {
+            if (min < x[i] && max > x[i]) {
+                document.write(x[i] + " Là số ở giữa");
+            }
+        }
+    }
+    Bai2(x)
+</script>
+
+<!--Bài 3-->
+<!--<script>-->
+<!--    let a = ["1" , "2" , "3" , "4" , "5"];-->
+<!--    let b = "4";-->
+<!--    function check() {-->
+<!--        for (let i = 0; i <= a.length - 1; i++)-->
+<!--            if (a[i] == b) {-->
+<!--                return true;-->
+<!--                break;-->
+<!--            }-->
+<!--        return false;-->
+<!--    }-->
+<!--    document.write(check(a))-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->

@@ -5,6 +5,107 @@
     <title>Title</title>
 </head>
 <body>
-<button onclick="alert('Xin chào bạn!');">Click me</button>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+    }
+    nav>ul{
+        list-style-type:none;
+        display:flex;
+        justify-content:space-around;
+        width:100%;
+        height:30px;
+        background-color: #ffffff;
+
+    }
+    nav ul li a{
+        text-decoration:none;
+        color: #000000;
+        line-height:30px;
+        width:150px;
+        text-align:center;
+        display:inline-block;
+    }
+    nav ul li a:hover{
+        background-color: #ffffff;
+    }
+    .cha{
+        position:relative;
+    }
+    .con{
+        position:absolute;
+        width:250px;
+        z-index:100;
+        background-color: #ffffff;
+        list-style-type:none;
+        display:none;
+    }
+    .cha>ul>li>a{
+        width:250px;
+        text-align:left;
+        padding-left:5px;
+    }
+    .cha:hover .con{
+        display:block;
+        color: chartreuse;
+    }
+    nav ul li a:hover{
+        color: chartreuse;
+    }
+
+    .img1 {
+        width: 60%;
+        margin-left: 20%;
+    }
+</style>
+</head>
+<nav style="background-color: chartreuse">
+    <ul style="background-color: chartreuse">
+        <li class="cha"><a href="#">Mẫu Website</a>
+            <ul class="con">
+                <li><a href="#">Sale off</a></li>
+                <li><a href="#">Mẫu web giá rẻ</a></li>
+                <li><a href="#">Mẫu web chueyen nghiệp</a></li>
+                <li><a href="#">Mẫu web Vip</a></li>
+                <li><a href="#">Landing Page</a></li>
+                <li><a href="#">Web tin tức</a></li>
+                <li><a href="#">Web theo yêu cầu</a></li>
+                <li><a href="#">Web sàn TMĐT</a></li>
+                <li><a href="#">Mẫu web khác</a></li>
+            </ul>
+        </li>
+        <li class="cha"><a href="#">Web bán hàng</a>
+            <ul class="con">
+                <li><a href="#">Công nghệ</a></li>
+                <li><a href="#">Thời trang</a></li>
+                <li><a href="#">Ẩm thực - Nhà hàng</a></li>
+                <li><a href="#">Mỹ phẩm - Làm đẹp</a></li>
+                <li><a href="#">Thiết bị - Máy móc</a></li>
+                <li><a href="#">Nội thất - Đồ dùng</a></li>
+            </ul>
+        </li>
+        <li class="cha"><a href="#">Web doanh nghiệp</a>
+            <ul class="con">
+                <li><a href="#">Bất động sản</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+                <li><a href="#">Du lịch - Khách sạn</a></li>
+                <li><a href="#">Giáo dục</a></li>
+                <li><a href="#">Xây dựng</a></li>
+            </ul>
+        </li>
+        <li class="cha"><a href="#">Dịch vụ</a>
+            <ul class="con">
+                <li><a href="#">Bảng giá thiết kế website</a></li>
+                <li><a href="#">Email doanh nghiệp</a></li>
+                <li><a href="#">Bảng giá tên miền</a></li>
+                <li><a href="#">Hosting</a></li>
+                <li><a href="#">Quảng cáo Google</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+</nav>
 </body>
 </html>

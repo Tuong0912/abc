@@ -1,24 +1,95 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
 </head>
-<body>
-<script>
-  document.write("Nếu %3 in Buzz , %5 in Fizz");
-for(let i=1 ; i<100 ; i++) {
-    if (i % 3 == 0 && i % 5 == 0)
-        document.write(i  +  "FizzBuzz" + "<br>")
-    else
-    {
-        if(i%3==0)
-            document.write(i  +  "Fizz "+ "<br>");
-        else if(i%5==0)
-            document.write(i  +  "Buzz" + "<br>");
-    }
-}
+<body onload="chuyendong()">
+<canvas id="myCanvas" width="500px" height="650px"
+        style=" border:5px solid red; left: 400px;position: absolute"></canvas>
+<h2 style="position: absolute ; left: 300px; top:5px">Điểm:</h2>
+<button type="button" onclick="choi()" style="width: 80px;height: 50px ;position: absolute;top: 100px;left: 300px ">PLAY
+</button>
+<button type="button" onclick="reset()" style="width: 80px;height: 50px ;position: absolute;top: 160px;left: 300px ">
+    RESET
+</button>
+<h2 id="rs" style="position: absolute ; left: 370px;top:5px"></h2>
 
+<script>
+
+    let canvas = document.getElementById("myCanvas");
+    let text = canvas.getContext('2d');
+    let grd = text.createLinearGradient(0, 0, 1000, 0);
+    grd.addColorStop(0, "red");
+    grd.addColorStop(1, "blue");
+
+    let Bong = function (x1, y1, bankinh, vx, vy) {
+        this.x1 = x1;
+        this.y1 = y1;
+        this.bankinh = bankinh;
+        this.vx = vx;
+        this.vy = vy;
+        this.hinhtron = function () {
+            text.beginPath();
+            text.fillStyle = grd;
+            text.arc(this.x1, this.y1, this.bankinh, 0, Math.PI*2);
+            text.stroke();
+            text.fill();
+        };
+        this.dichuyen = function (thanhdo) {
+            this.x1 += this.vx;
+            this.y1 += this.vy;
+            if (this.x1 > canvas.width - this.bankinh || this.x1 < 0)
+                this.vx = -this.vx;
+            if (this.y1 < 0) this.vy = -this.vy;
+            if (this.x1 < thanhdo.x + (thanhdo.dai) && this.y1 < thanhdo.y + thanhdo.rong &&
+                this.x1 > thanhdo.x - (thanhdo.dai) && this.y1 > thanhdo.y - thanhdo.rong) {
+                this.vy = -vy
+            }
+        };
+        this.toadobandau = function () {
+            this.x1 = x1;
+            this.y1 = y1;
+        }
+
+    };
+    let Thanhdo = function (color, x, y, dai, rong, VX) {
+        this.VX = VX;
+        this.x = x;
+        this.y = y;
+        this.dai = dai;
+        this.rong = rong;
+        this.trangthai = "sangphai";
+        this.hinh = function () {
+            text.fillStyle = color;
+            text.fillRect(this.x, this.y, this.dai, this.rong);
+            text.stroke();
+        };
+        this.sangtrai = function () {
+            if (this.x <= canvas.width - this.dai)
+                this.x += this.VX
+        };
+        this.sangphai = function () {
+            if (this.x >= 0)
+                this.x += -this.VX
+        };
+        this.chuyenthanhdo = function () {
+            switch (this.trangthai) {
+                case "sangtrai":
+                    this.sangtrai();
+                    break;
+                case "sangphai":
+                    this.sangphai();
+                    break
+            }
+        }
+    };
+    let Gach = function (dai, rong) {
+        this.doX = 25;
+        this.doY = 25;
+        this.khongcach = 15;
+        this.daiV = dai;
+        this.rongV = rong;
+        // this.hang
+    }
 </script>
-</body>
-</html>
