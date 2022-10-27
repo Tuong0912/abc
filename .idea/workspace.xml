@@ -5,52 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300ef6bf-70d3-4ef3-b7b8-2edeb709fb78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-1/Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-1/Bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-1/Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-1/Bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-2/Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-2/Bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-2/Bài 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-2/Bài 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-2/Bài 9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-15/Bài-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-15/Bài-tổng-hợp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-15/Chuyển-đổi-feet-meters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-15/Kiểm-tra-số-nguyên-tố.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-16/Xy-dựng-lớp-mô-tả-Temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-16/Xây-dựng-lớp-Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-16/Xây-dựng-lớp-hình-tròn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-16/Xây-dựng-lớp-mô-tả-chữ-nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-16/funny-circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-tập-trên-lớp/Bài-17/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-tập-trên-lớp/Chuyển-chữ-hoa-thành-thường.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-tập-trên-lớp/sdgfsdf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-tổng-kết-modul/Cuối-module-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài-tổng-kết-modul/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nhập-và-xóa-thông-tin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề-thi-thực-hành/Bài-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề-thi-thực-hành/Bài-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề-thi-thực-hành/Bài-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề-thi-thực-hành/Bài-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề-thi-thực-hành/Tổng-các-số-nguyên-tố.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề-thi-thực-hành/Tổng-hợp-file.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/13-P2-bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/Incacso_nguyentotren_1mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 13/Incacso_nguyentotren_1mang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/Sắp-xếp-giảm-dần.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/Sắp_xếp_tăng_dần.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/TImso_lonhon_10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/TimMax_vahien_vitri.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/V_is_in _the_arraey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/lọc-chữ-và-số1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 13/Đếm-số-từ-có-trong-chuỗi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 13/Bài-13-Mảng-1/bài 6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai10/Fizz_Buzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai10/Fizz_Buzz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiJame_8/Youmustloveme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiJame_8/nobita.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ung_dung_may_tinh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smt.html" beforeDir="false" afterPath="$PROJECT_DIR$/smt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ungdung_chuyendoi_tiente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +114,7 @@
       <workItem from="1666766589505" duration="280000" />
       <workItem from="1666767445017" duration="3750000" />
       <workItem from="1666795328717" duration="2940000" />
-      <workItem from="1666853125975" duration="660000" />
+      <workItem from="1666853125975" duration="1375000" />
     </task>
     <servers />
   </component>
