@@ -58,7 +58,7 @@
         this.y = y;
         this.dai = dai;
         this.rong = rong;
-        this.trangthai = "sangphai";
+        this.trangthai = 0;
         this.hinh = function () {
             text.fillStyle = color;
             text.fillRect(this.x, this.y, this.dai, this.rong);
@@ -115,7 +115,7 @@
                 }
             });
         };
-        this.vatramgach = function (bong, gach) {
+        this.vachamgach = function (bong, gach) {
             mang.forEach(function (b) {
                 if (!b.trangthaigach) {
                     if (bong.x1 >= b.cx && bong.x1 <= b.cx + gach.daiV &&
@@ -182,7 +182,7 @@
             bong.dichuyen(thanhdo);
             thanhdo.hinh();
             gach.taogach(gach);
-            gach.vatramgach(bong, gach);
+            gach.vachamgach(bong, gach);
             thanhdo.chuyenthanhdo();
             chuyendong();
             GameOver();

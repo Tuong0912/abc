@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="300ef6bf-70d3-4ef3-b7b8-2edeb709fb78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/alert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smt.html" beforeDir="false" afterPath="$PROJECT_DIR$/smt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,9 @@
       <workItem from="1666766589505" duration="280000" />
       <workItem from="1666767445017" duration="3750000" />
       <workItem from="1666795328717" duration="2940000" />
-      <workItem from="1666853125975" duration="1375000" />
+      <workItem from="1666853125975" duration="12613000" />
+      <workItem from="1666879726634" duration="7315000" />
+      <workItem from="1666919155333" duration="3024000" />
     </task>
     <servers />
   </component>
@@ -131,5 +135,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../Bài-tổng-kết-modul/index.html</url>
+          <line>148</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
